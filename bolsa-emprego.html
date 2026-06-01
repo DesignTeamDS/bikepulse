@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bolsa de Emprego — Associação Bike Pulse</title>
+<meta name="description" content="Bolsa de emprego do setor das bicicletas. Encontre oportunidades em lojas, oficinas e marcas associadas da Bike Pulse.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/components.js"></script>
+<script defer src="js/main.js"></script>
+</head>
+<body data-page="sobre">
+<div id="header-root"></div>
+<main>
+
+  <section class="page-hero">
+    <div class="deco-glow" style="width:420px;height:420px;background:rgba(241,106,123,.16);top:-160px;left:-100px;"></div>
+    <div class="container">
+      <nav class="breadcrumb" data-reveal><a href="index.html">Início</a> <span data-ic="chevron" style="transform:rotate(-90deg)"></span> <span class="current">Bolsa de Emprego</span></nav>
+      <span class="eyebrow" data-reveal>Carreiras</span>
+      <h1 data-reveal data-delay="1">Construa a sua carreira <span class="text-grad">sobre duas rodas</span></h1>
+      <p class="lead" data-reveal data-delay="2">A bolsa de emprego que liga talento e empresas do setor das bicicletas em Portugal.</p>
+    </div>
+  </section>
+
+  <!-- FILTROS + VAGAS -->
+  <section class="section">
+    <div class="container" style="max-width:920px;">
+      <div class="chips" data-reveal data-filter-group="#jobs-list" style="margin-bottom:36px;justify-content:flex-start;">
+        <button class="chip active" data-filter="all">Todas as áreas</button>
+        <button class="chip" data-filter="mecanica">Mecânica</button>
+        <button class="chip" data-filter="vendas">Vendas</button>
+        <button class="chip" data-filter="gestao">Gestão</button>
+      </div>
+      <div class="grid" style="gap:18px;" id="jobs-list">
+        <article class="job-card" data-cat="mecanica" data-reveal>
+          <div class="job-top"><div class="job-logo">VP</div><div><h3>Mecânico de Bicicletas (m/f)</h3><span class="company">VeloPorto · Porto</span></div></div>
+          <div class="job-tags"><span class="pill pill-light">Full-time</span><span class="pill pill-green">Presencial</span><span class="pill pill-light">Mecânica</span></div>
+          <div class="job-foot"><span class="sal">1 100€ – 1 400€</span><a class="btn btn-sm btn-outline" href="contactos.html">Candidatar</a></div>
+        </article>
+        <article class="job-card" data-cat="vendas" data-reveal data-delay="1">
+          <div class="job-top"><div class="job-logo">CL</div><div><h3>Consultor de Vendas (m/f)</h3><span class="company">CicloLisboa · Lisboa</span></div></div>
+          <div class="job-tags"><span class="pill pill-light">Full-time</span><span class="pill pill-green">Presencial</span><span class="pill pill-light">Vendas</span></div>
+          <div class="job-foot"><span class="sal">1 000€ + comissões</span><a class="btn btn-sm btn-outline" href="contactos.html">Candidatar</a></div>
+        </article>
+        <article class="job-card" data-cat="gestao" data-reveal>
+          <div class="job-top"><div class="job-logo">PP</div><div><h3>Gestor(a) de Loja</h3><span class="company">PedalPro · Braga</span></div></div>
+          <div class="job-tags"><span class="pill pill-light">Full-time</span><span class="pill pill-green">Presencial</span><span class="pill pill-light">Gestão</span></div>
+          <div class="job-foot"><span class="sal">1 500€ – 1 900€</span><a class="btn btn-sm btn-outline" href="contactos.html">Candidatar</a></div>
+        </article>
+        <article class="job-card" data-cat="mecanica" data-reveal data-delay="1">
+          <div class="job-top"><div class="job-logo">AB</div><div><h3>Técnico de E-bikes (m/f)</h3><span class="company">Atlântico Bikes · Faro</span></div></div>
+          <div class="job-tags"><span class="pill pill-light">Full-time</span><span class="pill pill-green">Presencial</span><span class="pill pill-light">E-bikes</span></div>
+          <div class="job-foot"><span class="sal">1 200€ – 1 600€</span><a class="btn btn-sm btn-outline" href="contactos.html">Candidatar</a></div>
+        </article>
+        <article class="job-card" data-cat="vendas" data-reveal>
+          <div class="job-top"><div class="job-logo">MB</div><div><h3>Gestor(a) de E-commerce</h3><span class="company">MoveBike · Remoto</span></div></div>
+          <div class="job-tags"><span class="pill pill-light">Full-time</span><span class="pill pill-green">Remoto</span><span class="pill pill-light">Digital</span></div>
+          <div class="job-foot"><span class="sal">1 400€ – 1 800€</span><a class="btn btn-sm btn-outline" href="contactos.html">Candidatar</a></div>
+        </article>
+        <article class="job-card" data-cat="gestao" data-reveal data-delay="1">
+          <div class="job-top"><div class="job-logo">RL</div><div><h3>Responsável de Compras</h3><span class="company">RodaLivre · Coimbra</span></div></div>
+          <div class="job-tags"><span class="pill pill-light">Full-time</span><span class="pill pill-green">Híbrido</span><span class="pill pill-light">Gestão</span></div>
+          <div class="job-foot"><span class="sal">1 600€ – 2 100€</span><a class="btn btn-sm btn-outline" href="contactos.html">Candidatar</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLICAR VAGA -->
+  <section class="section bg-soft">
+    <div class="container">
+      <div class="callout" data-reveal>
+        <div>
+          <span class="eyebrow">Para empresas</span>
+          <h2>Procura talento para a sua equipa?</h2>
+          <p class="lead" style="margin-bottom:26px;">Associados Bike Pulse publicam vagas gratuitamente e chegam aos melhores profissionais do setor.</p>
+          <ul class="feature-list">
+            <li><span class="ck" data-ic="check"></span><span>Publicação gratuita para associados</span></li>
+            <li><span class="ck" data-ic="check"></span><span>Divulgação nos canais da ABP</span></li>
+            <li><span class="ck" data-ic="check"></span><span>Acesso a candidatos qualificados</span></li>
+          </ul>
+          <div style="margin-top:30px;"><a class="btn btn-primary" href="contactos.html">Publicar uma vaga</a></div>
+        </div>
+        <div class="feature-media"><img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=700&q=80" alt="Profissional do setor" style="aspect-ratio:4/3;"></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<div id="footer-root"></div>
+</body>
+</html>

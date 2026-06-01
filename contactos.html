@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contactos — Associação Bike Pulse</title>
+<meta name="description" content="Fale com a Associação Bike Pulse. Morada, telefone, email e formulário de contacto da Associação Portuguesa de Comércio de Bicicletas e Serviços.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/components.js"></script>
+<script defer src="js/main.js"></script>
+</head>
+<body data-page="contactos">
+<div id="header-root"></div>
+<main>
+
+  <section class="page-hero">
+    <div class="deco-glow" style="width:420px;height:420px;background:rgba(116,197,142,.16);top:-160px;right:-100px;"></div>
+    <div class="container">
+      <nav class="breadcrumb" data-reveal><a href="index.html">Início</a> <span data-ic="chevron" style="transform:rotate(-90deg)"></span> <span class="current">Contactos</span></nav>
+      <span class="eyebrow" data-reveal>Fale connosco</span>
+      <h1 data-reveal data-delay="1">Vamos <span class="text-grad">conversar</span></h1>
+      <p class="lead" data-reveal data-delay="2">Tem uma questão, sugestão ou quer associar-se? A nossa equipa está pronta para ajudar.</p>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section">
+    <div class="container">
+      <div class="feature-row">
+        <div data-reveal>
+          <h2 style="margin-bottom:28px;">Informações de contacto</h2>
+          <div class="contact-info">
+            <div class="ci-item"><span class="ci-ico" data-ic="mapPin"></span><div><b>Morada</b><p>Av. da Liberdade 110, 4.º<br>1250-146 Lisboa, Portugal</p></div></div>
+            <div class="ci-item"><span class="ci-ico" data-ic="mail"></span><div><b>Email</b><p><a href="mailto:geral@bikepulse.pt">geral@bikepulse.pt</a><br><a href="mailto:associados@bikepulse.pt">associados@bikepulse.pt</a></p></div></div>
+            <div class="ci-item"><span class="ci-ico" data-ic="phone"></span><div><b>Telefone</b><p><a href="tel:+351210000000">+351 210 000 000</a></p></div></div>
+            <div class="ci-item"><span class="ci-ico" data-ic="clock"></span><div><b>Horário</b><p>Segunda a sexta · 09:00 – 18:00</p></div></div>
+          </div>
+          <div class="footer-social" style="margin-top:30px;">
+            <a href="#" aria-label="LinkedIn" style="background:var(--surface-2);color:var(--ink-3);" data-ic="linkedin"></a>
+            <a href="#" aria-label="Instagram" style="background:var(--surface-2);color:var(--ink-3);" data-ic="instagram"></a>
+            <a href="#" aria-label="Facebook" style="background:var(--surface-2);color:var(--ink-3);" data-ic="facebook"></a>
+            <a href="#" aria-label="YouTube" style="background:var(--surface-2);color:var(--ink-3);" data-ic="youtube"></a>
+          </div>
+        </div>
+        <div data-reveal data-delay="1">
+          <div class="form-card">
+            <form data-demo novalidate>
+              <div class="form-grid">
+                <div class="field"><label>Nome <span class="req">*</span></label><input type="text" required placeholder="O seu nome"></div>
+                <div class="field"><label>Email <span class="req">*</span></label><input type="email" required placeholder="nome@email.pt"></div>
+                <div class="field full"><label>Assunto <span class="req">*</span></label>
+                  <select required><option value="" disabled selected>Selecione um assunto</option><option>Adesão de associados</option><option>Parcerias</option><option>Formação</option><option>Imprensa</option><option>Outro</option></select>
+                </div>
+                <div class="field full"><label>Mensagem <span class="req">*</span></label><textarea required placeholder="Como podemos ajudar?"></textarea></div>
+                <div class="field full"><label class="checkbox-row"><input type="checkbox" required><span>Aceito a política de privacidade. <span class="req">*</span></span></label></div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg btn-block" style="margin-top:8px;">Enviar mensagem</button>
+            </form>
+            <div class="form-success">
+              <div class="ok-ico" data-ic="check"></div>
+              <h3>Mensagem enviada!</h3>
+              <p>Obrigado pelo seu contacto. Responderemos com a maior brevidade.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAPA -->
+  <section class="section-sm" style="padding-top:0;">
+    <div class="container">
+      <div class="map-embed" data-reveal>
+        <iframe title="Localização da Bike Pulse — Av. da Liberdade, Lisboa" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
+          src="https://maps.google.com/maps?q=Avenida%20da%20Liberdade%20110%2C%20Lisboa&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section bg-soft">
+    <div class="container" style="max-width:840px;">
+      <div class="section-head center" data-reveal><span class="eyebrow" style="justify-content:center;">Dúvidas frequentes</span><h2>Perguntas rápidas</h2></div>
+      <div class="accordion" data-reveal>
+        <div class="acc-item"><button class="acc-q">Como posso tornar-me associado?<span class="acc-ico" data-ic="plus"></span></button><div class="acc-a"><div class="acc-a-inner">Basta preencher o <a href="associados.html#adesao" style="color:var(--pink);font-weight:600;">formulário de adesão</a> e a nossa equipa entrará em contacto em 48 horas úteis.</div></div></div>
+        <div class="acc-item"><button class="acc-q">Atendem pedidos de imprensa?<span class="acc-ico" data-ic="plus"></span></button><div class="acc-a"><div class="acc-a-inner">Sim. Para assuntos de imprensa, selecione o assunto "Imprensa" no formulário ou escreva para geral@bikepulse.pt.</div></div></div>
+        <div class="acc-item"><button class="acc-q">Posso visitar a sede da associação?<span class="acc-ico" data-ic="plus"></span></button><div class="acc-a"><div class="acc-a-inner">Com certeza. Recomendamos agendamento prévio por telefone ou email para garantir o melhor acompanhamento.</div></div></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<div id="footer-root"></div>
+</body>
+</html>
